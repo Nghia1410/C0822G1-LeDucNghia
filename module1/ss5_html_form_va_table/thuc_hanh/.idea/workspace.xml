@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8af123a0-367b-4bff-85a5-a79a12f78e92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bai_tap/tao_form_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_tap/tao_form_lay_survey_khach_hang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../thuc_hanh3/bai3_thuc_hanh.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../thuc_hanh3/thuc_hanh3.html" beforeDir="false" />
@@ -70,7 +70,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662427626837</updated>
-      <workItem from="1662427628147" duration="13517000" />
+      <workItem from="1662427628147" duration="16366000" />
+      <workItem from="1662463587945" duration="627000" />
     </task>
     <servers />
   </component>
@@ -87,12 +88,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="582" y="173" key="FileChooserDialogImpl" timestamp="1662446068829">
+    <state x="582" y="173" key="FileChooserDialogImpl" timestamp="1662456961266">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="582" y="173" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1662446068829" />
+    <state x="582" y="173" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1662456961266" />
     <state x="755" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1662432120179">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
