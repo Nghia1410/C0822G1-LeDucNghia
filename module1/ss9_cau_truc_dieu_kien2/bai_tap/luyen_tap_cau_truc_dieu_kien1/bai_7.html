@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>duc nghia</title>
+</head>
+<body>
+<script>
+    const phiBatbuoc=25000;
+    let soPhut = +prompt("Nhập số phút đã gọi");
+    if (soPhut <= 50){
+        alert( soPhut * 600 + phiBatbuoc);
+    }else if (soPhut <= 150){
+        alert( 50 * 600 + (soPhut-50) * 400 + phiBatbuoc);
+    }else  if (soPhut <= 200){
+        alert ( 50 * 600 + (soPhut-50) * 400 + phiBatbuoc);
+    }else if (soPhut > 200){
+        alert( 50 * 600 + 150 * 400 + (soPhut-200) * 200 + phiBatbuoc);
+    }
+</script>
+</body>
+</html>

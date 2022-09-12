@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>duc nghia</title>
+</head>
+<body>
+<script>
+    let giaTriA=+prompt("nhập a:");
+    let giaTriB=+prompt("nhập b:");
+    let x=(-giaTriB/giaTriA);
+    if(giaTriA===0&&giaTriB===0){
+        alert("Phương trình có vô số nghiệm");
+    }
+    else if(giaTriA===0&&giaTriB!=0){
+        alert("phương trình vô nghiệm");
+    }
+    else if(giaTriA!=0){
+        alert("Phương trình có nghiệm duy nhất:"+x)
+    }
+</script>
+</body>
+</html>

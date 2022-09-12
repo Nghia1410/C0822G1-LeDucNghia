@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<body>
+<script>
+    let giaTriA=+prompt("nhập a:");
+    let giaTriB=+prompt("nhập b:");
+    let giaTriC=+prompt("nhập c:");
+    let delta=(giaTriB*giaTriB-4*giaTriA*giaTriC);
+    if(delta<0){
+        alert("phương trình vô nghiệm");
+    }
+    else if (delta===0){
+        alert("phương trình có nghiệm kép:x1=x2="+(-giaTriB/2*giaTriA));
+    }
+    else{
+        alert("phương trình có 2 nghiệm phân biệt:x1="+(-giaTriB+Math.sqrt(delta))/2*giaTriA+("và x2="+(-giaTriB-Math.sqrt(delta))/2*giaTriA));
+    }
+</script>
+</body>
+</html>
