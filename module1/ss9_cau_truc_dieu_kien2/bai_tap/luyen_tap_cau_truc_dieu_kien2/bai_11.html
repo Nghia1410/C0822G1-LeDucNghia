@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<body>
+<script>
+    let tienThuNhap=+prompt("nhập tiền thu nhập:")
+    if(tienThuNhap<=5){
+        alert("thuế cá nhân:"+(tienThuNhap*5)/100);
+    }
+    else if(tienThuNhap>5&&tienThuNhap<=10){
+        alert("thuế cá nhân:"+(tienThuNhap*10)/100)
+    }
+    else if(tienThuNhap>10&&tienThuNhap<=18){
+        alert("thuế cá nhân:"+(tienThuNhap*15)/100)
+    }
+    else if(tienThuNhap>18&&tienThuNhap<=32){
+        alert("thuế cá nhân:"+(tienThuNhap*20)/100)
+    }
+    else if(tienThuNhap>32&&tienThuNhap<=52){
+        alert("thuế cá nhân:"+(tienThuNhap*25)/100)
+    }
+    else if(tienThuNhap>52&&tienThuNhap<=80){
+        alert("thuế cá nhân:"+(tienThuNhap*30)/100)
+    }
+    else if(tienThuNhap>80){
+        alert("thuế cá nhân:"+(tienThuNhap*35)/100)
+    }
+
+
+</script>
+</body>
+</html>
