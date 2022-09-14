@@ -15,15 +15,15 @@ chiều cao: (m)
 <label>
     <input type="text" name="height" id="height">
 </label><br>
-<button onclick="dosomething()">Kiểm tra</button>
+<button onclick="doSth()">Kiểm tra</button>
 <br><br><br>
 <p id="result1"></p>
 </body>
 <script>
-    function dosomething() {
-        let myweight= + document.getElementById("weight").value;
-        let myheight= + document.getElementById("height").value;
-        let bmi = myweight / ( myheight ^ 2 );
+    function doSth() {
+        let myWeight= + document.getElementById("weight").value;
+        let myHeight= + document.getElementById("height").value;
+        let bmi = myWeight / ( myHeight ^ 2 );
         if (bmi < 18.5){
             document.getElementById("result1").innerText="BMI là: ốm quá";
         }
