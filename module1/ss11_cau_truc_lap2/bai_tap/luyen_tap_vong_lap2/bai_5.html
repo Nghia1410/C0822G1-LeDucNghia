@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let borrow = +prompt("số tiền vay: ");
+    let month = +prompt(" số tháng: ");
+    let lai = +prompt(" số lãi ( %): ");
+    let i;
+    let interest = 0;
+    let tongTien = borrow;
+    for (i = 1; i <= month; i++) {
+        interest = (tongTien * lai / 100);
+        tongTien = borrow + interest;
+        borrow = tongTien;
+    }
+    alert("Số lãi ngân hàng: " + Math.round(interest));
+</script>
+</body>
+</html>
