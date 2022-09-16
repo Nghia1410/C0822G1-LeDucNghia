@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chương trình khởi tạo/nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.</title>
+</head>
+<body>
+<script>
+    let array = [13, 23, 33, 4, 6, 5, 7, 8, 9, 10];
+    let first = 0;
+    let last = array.length - 1;
+    while (first < last) {
+        let a = array[first];
+        array[first] = array[last];
+        array[last] = a;
+        first++;
+        last--;
+    }
+    document.write(array);
+</script>
+</body>
+</html>
