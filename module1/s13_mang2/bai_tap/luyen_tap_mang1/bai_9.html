@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nối 2 mảng</title>
+</head>
+<body>
+<script>
+    let mangA = [];
+    for (let i = 0; i < 10; i++) {
+        mangA[i] = +prompt("Nhập mảng 1 lần" + (i + 1));
+    }
+    let mangB = [];
+    for (let j = 0; j < 10; j++) {
+        mangB[j] = +prompt("nhập mảng 2 lần" + (j + 1));
+    }
+    let mangC = mangA.concat(mangB);
+    document.write("mảng C là:" + mangC);
+</script>
+</body>
+</html>
