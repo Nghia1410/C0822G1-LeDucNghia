@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> tìm xem V có nằm trong mảng số nguyên không? Nếu V thuộc mảng số nguyên thì in ra "V is in the array" còn lại in ra "V is not in the array".</title>
+</head>
+<body>
+<script>
+let array=[];
+for(let i=0;i<5;i++){
+    array[i]=+prompt("Nhập lần"+(i+1));
+}
+let number=+prompt("nhập số bạn kiểm tra xem có thuộc mảng số nguyên không");
+if(array.includes(number)){
+    document.write(number+"thuộc mảng số nguyên");
+}
+else {
+    document.write(number+"không thuộc mảng số nguyên");
+}
+</script>
+</body>
+</html>
