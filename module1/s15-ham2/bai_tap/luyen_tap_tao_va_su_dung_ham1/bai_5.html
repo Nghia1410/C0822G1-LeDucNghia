@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chòm sao</title>
+</head>
+<body>
+<script>
+    let array1=["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe","Regulus"];
+    let array2=["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major","Leo"];
+    let tenNgoiSao=prompt("Nhập vào tên ngôi sao:");
+    function myFuncTion() {
+        for(let i=0;i<array1.length;i++){
+       if(tenNgoiSao===array1[i]){
+           array1[i]=array2[i];
+            alert(array2[i]);
+            break;
+       }else {
+           alert("không có ngôi sao này");
+       }
+        }
+    }myFuncTion();
+</script>
+</body>
+</html>

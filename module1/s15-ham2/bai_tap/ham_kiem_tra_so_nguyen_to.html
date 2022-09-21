@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>hàm kiểm tra số nguyên tố</title>
 </head>
 <body>
-$END$
+<script>
+    let nhapSo = +prompt("Nhập vào một số");
+    let check = true;
+
+    function isPrime(nhapSo) {
+        for (let i = 2; i < nhapSo; i++) {
+            if (nhapSo % i === 0) {
+                check = false;
+                break;
+            }
+        }
+        if (check == true) {
+            document.write(nhapSo + "là số nguyên tố");
+        } else {
+            document.write(nhapSo + "không phải là số nguyên tố");
+
+        }
+    }
+
+    isPrime(nhapSo);
+</script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được</title>
+</head>
+<body>
+<script>
+    let banKinh = +prompt("nhập bán kính");
+
+    function dienTichHinhTron() {
+        let dienTich = banKinh * banKinh * 3.14;
+        alert("diện tích hình tròn là: " + dienTich);
+    }
+
+    function chuViHinhTron() {
+        let chuVi = banKinh * 2 * 3.14;
+        alert("chu vi hình tròn là : " + chuVi);
+    }
+
+    dienTichHinhTron();
+    chuViHinhTron();
+</script>
+</body>
+</html>
