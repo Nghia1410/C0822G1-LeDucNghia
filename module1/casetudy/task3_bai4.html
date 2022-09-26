@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết một chương trình nhập một số từ bàn phím và in ra màn hình bằng chữ.</title>
+</head>
+<body>
+<script>
+    let nhapSo = (prompt('Nhap so ban muon '));
+    let number = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    let chu = ['một', 'hai', 'ba', 'bốn', 'năm', 'sáu', 'bảy', 'tám', 'chín'];
+    for (let i = 0; i < nhapSo.length; i++) {
+        for (let j = 0; j < number.length; j++) {
+            if (nhapSo[i] === number[j]) {
+                document.write(chu[j]+ ' ');
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tu = [5, 2, 5, 6];
+    let mau = [6, 3, 4, 3];
+    let index = 0;
+    let max = tu[0] / mau[0];
+    for (let i = 1; i < tu.length; i++) {
+        if (tu[i] / mau[i] > max) {
+            max = tu[i] / mau[i];
+            index = i;
+        }
+    }
+    alert("phân số lớn nhất là " + max + " chỉ số " + index);
+</script>
+</body>
+</html>
