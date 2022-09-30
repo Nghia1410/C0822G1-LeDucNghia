@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [];
+    let number = +prompt("nhập độ dài mảng cha :");
+    let number1 = +prompt("nhập độ dài mảng con:");
+    let count = 0;
+    for (let i = 0; i < number; i++) {
+        array[i] = [];
+        for (let j = 0; j < number1; j++) {
+            array[i][j] = +prompt("nhập phần tử thứ" + j + "của mảng con thứ" + i)
+        }
+    }
+    alert(array);
+
+    function kiemTraSNT(number) {
+        if (number < 2) {
+            return false;
+        }
+        for (let i = 2; i < number; i++) {
+            if (number % i === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array[i].length; j++) {
+            if (kiemTraSNT(array[i][j])) {
+                count++
+                document.write(array[i][j] + "<br>")
+            }
+        }
+    }
+    document.write("có" + count + "số nguyên tố");
+</script>
+</body>
+</html>
